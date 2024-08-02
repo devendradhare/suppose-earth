@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1159px" height="931px" viewBox="0 0 1159 931" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>White_Bots</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="100.0%" y="100.0%" width="-100.0%" height="-100.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <g id="Space-Scene" transform="translate(-135.000000, -83.000000)" fill="#FFFFFF">
+            <g id="White_Bots" transform="translate(133.000000, 81.000000)">
+                <circle id="Oval_6_10" filter="url(#filter-1)" transform="translate(448.500000, 924.500000) rotate(504.000000) translate(-448.500000, -924.500000) " cx="448.5" cy="924.5" r="8.5"></circle>
+                <circle id="Oval_6_9" filter="url(#filter-2)" transform="translate(1026.000000, 6.000000) rotate(468.000000) translate(-1026.000000, -6.000000) " cx="1026" cy="6" r="4"></circle>
+                <circle id="Oval_6_8" filter="url(#filter-3)" transform="translate(72.000000, 849.000000) rotate(432.000000) translate(-72.000000, -849.000000) " cx="72" cy="849" r="4"></circle>
+                <circle id="Oval_6_7" filter="url(#filter-4)" transform="translate(968.500000, 556.500000) rotate(396.000000) translate(-968.500000, -556.500000) " cx="968.5" cy="556.5" r="1.5"></circle>
+                <circle id="Oval_6_6" filter="url(#filter-5)" transform="translate(1014.500000, 314.500000) rotate(360.000000) translate(-1014.500000, -314.500000) " cx="1014.5" cy="314.5" r="1"></circle>
+                <circle id="Oval_6_5" filter="url(#filter-6)" transform="translate(1157.000000, 789.000000) rotate(324.000000) translate(-1157.000000, -789.000000) " cx="1157" cy="789" r="4"></circle>
+                <circle id="Oval_6_4" filter="url(#filter-7)" transform="translate(418.000000, 628.000000) rotate(288.000000) translate(-418.000000, -628.000000) " cx="418" cy="628" r="6"></circle>
+                <circle id="Oval_6_3" filter="url(#filter-8)" transform="translate(300.000000, 223.000000) rotate(252.000000) translate(-300.000000, -223.000000) " cx="300" cy="223" r="7"></circle>
+                <circle id="Oval_6_2" filter="url(#filter-9)" transform="translate(5.500000, 855.500000) rotate(216.000000) translate(-5.500000, -855.500000) " cx="5.5" cy="855.5" r="3.5"></circle>
+                <circle id="Oval_6_1" filter="url(#filter-10)" transform="translate(702.000000, 451.000000) rotate(180.000000) translate(-702.000000, -451.000000) " cx="702" cy="451" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

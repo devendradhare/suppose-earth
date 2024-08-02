@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="305px" height="192px" viewBox="0 0 305 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Planet3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="130.486764%" y1="69.8589506%" x2="70.5312999%" y2="-58.4490741%" id="linearGradient-1">
+            <stop stop-color="#FFFEFF" offset="0%"></stop>
+            <stop stop-color="#B8DCFF" stop-opacity="0.3" offset="0.01%"></stop>
+            <stop stop-color="#D7FFFE" offset="100%"></stop>
+        </linearGradient>
+        <path d="M95,191 C147.467059,191 190,148.243117 190,95.5 C190,42.7568238 147.467059,0 95,0 C42.5329412,0 0,42.7568238 0,95.5 C0,148.243117 42.5329412,191 95,191 Z" id="path-2"></path>
+        <linearGradient x1="-31.3363139%" y1="40.04868%" x2="1.7310685%" y2="110.814805%" id="linearGradient-4">
+            <stop stop-color="#5D9FFF" offset="0%"></stop>
+            <stop stop-color="#B8DCFF" offset="45.3125%"></stop>
+            <stop stop-color="#6BBBFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M95,191 C147.467059,191 190,148.243117 190,95.5 C190,42.7568238 147.467059,0 95,0 C42.5329412,0 0,42.7568238 0,95.5 C0,148.243117 42.5329412,191 95,191 Z" id="path-5"></path>
+        <linearGradient x1="131.335828%" y1="60.6482464%" x2="96.1960473%" y2="-14.5529468%" id="linearGradient-7">
+            <stop stop-color="#5D9FFF" offset="0%"></stop>
+            <stop stop-color="#B8DCFF" offset="45.3125%"></stop>
+            <stop stop-color="#6BBBFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M95,191 C147.467059,191 190,148.243117 190,95.5 C190,42.7568238 147.467059,0 95,0 C42.5329412,0 0,42.7568238 0,95.5 C0,148.243117 42.5329412,191 95,191 Z" id="path-8"></path>
+        <linearGradient x1="131.335683%" y1="59.9001432%" x2="98.4215925%" y2="-10.5390618%" id="linearGradient-10">
+            <stop stop-color="#5D9FFF" offset="0%"></stop>
+            <stop stop-color="#B8DCFF" offset="45.3125%"></stop>
+            <stop stop-color="#6BBBFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-11">
+            <stop stop-color="#FECFEF" offset="0%"></stop>
+            <stop stop-color="#FF989C" offset="100%"></stop>
+        </linearGradient>
+        <path d="M190,95.5 C190,42.7568238 147.467059,2.27373675e-13 95,2.27373675e-13 C42.5329412,2.27373675e-13 0,42.7568238 0,95.5 C0,148.243117 190,148.243117 190,95.5 Z" id="path-12"></path>
+        <path d="M95,191 C147.467059,191 190,148.243117 190,95.5 C190,42.7568238 147.467059,0 95,0 C42.5329412,0 0,42.7568238 0,95.5 C0,148.243117 42.5329412,191 95,191 Z" id="path-14"></path>
+        <path d="M95,191 C147.467059,191 190,148.243117 190,95.5 C190,42.7568238 147.467059,0 95,0 C42.5329412,0 0,42.7568238 0,95.5 C0,148.243117 42.5329412,191 95,191 Z" id="path-16"></path>
+        <path d="M95,191 C147.467059,191 190,148.243117 190,95.5 C190,42.7568238 147.467059,0 95,0 C42.5329412,0 0,42.7568238 0,95.5 C0,148.243117 42.5329412,191 95,191 Z" id="path-18"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.841285342">
+        <g id="Space-Scene" transform="translate(-79.000000, -207.000000)">
+            <g id="Planets" transform="translate(47.000000, 128.000000)">
+                <g id="Planet3" transform="translate(184.500000, 175.500000) rotate(19.000000) translate(-184.500000, -175.500000) translate(36.000000, 42.000000)">
+                    <g transform="translate(148.000000, 133.500000) rotate(53.000000) translate(-148.000000, -133.500000) translate(53.000000, 38.000000)">
+                        <path d="M95,191 C147.467059,191 190,148.243117 190,95.5 C190,42.7568238 147.467059,9.09494702e-12 95,9.09494702e-12 C42.5329412,9.09494702e-12 -9.09494702e-13,42.7568238 -9.09494702e-13,95.5 C-9.09494702e-13,148.243117 42.5329412,191 95,191 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <path d="M95,191 C147.467059,191 190,148.243117 190,95.5 C190,42.7568238 147.467059,9.09494702e-12 95,9.09494702e-12 C42.5329412,9.09494702e-12 -9.09494702e-13,42.7568238 -9.09494702e-13,95.5 C-9.09494702e-13,148.243117 42.5329412,191 95,191 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                        <g id="Clipped" transform="translate(-0.000000, 0.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Path"></g>
+                            <path d="M142.071765,132.059994 C118.926471,158.094944 118.926471,155.419765 90.9676471,153.979012 C63.0088235,152.538259 81.0335294,215.516383 147.397059,201.521506 C213.761176,187.52604 188.26,183.138346 188.26,160.461812 C188.26,137.785278 165.217059,106.024454 142.071765,132.059994 Z" id="Path" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                        </g>
+                        <g id="Clipped" transform="translate(-0.000000, 0.000000)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <g id="Path"></g>
+                            <path d="M128.668235,104.519444 C154.53,75.4284938 154.53,78.4184691 185.770588,80.027821 C217.011176,81.6377623 233.473529,2.92524753 159.320588,18.5630188 C85.1676471,34.2008491 77.0588235,47.4460506 77.0588235,72.7839691 C77.0588235,98.1221235 102.806471,133.610395 128.668235,104.519444 Z" id="Path" fill="url(#linearGradient-7)" fill-rule="nonzero" mask="url(#mask-6)"></path>
+                        </g>
+                        <g id="Clipped" transform="translate(-0.000000, 0.000000)">
+                            <mask id="mask-9" fill="white">
+                                <use xlink:href="#path-8"></use>
+                            </mask>
+                            <g id="Path"></g>
+                            <path d="M33.5241176,46.922687 C51.5024706,26.6997367 51.5024706,28.7779818 73.2194118,29.8970414 C94.9370588,31.0161009 109.812941,-22.3789512 58.2642353,-11.5081037 C6.71576471,-0.637250278 -2.35294118,7.24721204 -2.35294118,24.8613028 C-2.35294118,42.4753935 15.5458235,67.1459321 33.5241176,46.922687 Z" id="Path" fill="url(#linearGradient-10)" fill-rule="nonzero" mask="url(#mask-9)"></path>
+                        </g>
+                    </g>
+                    <path d="M148.5,190.246727 C230.514285,190.246727 297,164.950815 297,133.746727 C297,112.408982 266.280703,92.335702 220.377894,82.799577 C199.15293,78.3901756 174.681673,76.2336577 148.5,77.2467268 C121.50831,78.2911384 96.334508,81.3425075 74.6614788,86.0622394 C29.8466706,95.8215527 0,112.71423 0,133.746727 C0,164.950815 66.4857147,190.246727 148.5,190.246727 Z" id="Oval" stroke="url(#linearGradient-11)" stroke-width="20"></path>
+                    <g id="Planet3-Part-up" transform="translate(53.000000, 38.000000)">
+                        <mask id="mask-13" fill="white">
+                            <use xlink:href="#path-12"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-12"></use>
+                        <g id="Planet3" mask="url(#mask-13)">
+                            <g transform="translate(95.000000, 95.500000) rotate(53.000000) translate(-95.000000, -95.500000) translate(0.000000, 0.000000)">
+                                <path d="M95,191 C147.467059,191 190,148.243117 190,95.5 C190,42.7568238 147.467059,9.09494702e-12 95,9.09494702e-12 C42.5329412,9.09494702e-12 -9.09494702e-13,42.7568238 -9.09494702e-13,95.5 C-9.09494702e-13,148.243117 42.5329412,191 95,191 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                <path d="M95,191 C147.467059,191 190,148.243117 190,95.5 C190,42.7568238 147.467059,9.09494702e-12 95,9.09494702e-12 C42.5329412,9.09494702e-12 -9.09494702e-13,42.7568238 -9.09494702e-13,95.5 C-9.09494702e-13,148.243117 42.5329412,191 95,191 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                                <g id="Clipped" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-0.000000, 0.000000)">
+                                    <mask id="mask-15" fill="white">
+                                        <use xlink:href="#path-14"></use>
+                                    </mask>
+                                    <g id="Path"></g>
+                                    <path d="M142.071765,132.059994 C118.926471,158.094944 118.926471,155.419765 90.9676471,153.979012 C63.0088235,152.538259 81.0335294,215.516383 147.397059,201.521506 C213.761176,187.52604 188.26,183.138346 188.26,160.461812 C188.26,137.785278 165.217059,106.024454 142.071765,132.059994 Z" id="Path" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-15)"></path>
+                                </g>
+                                <g id="Clipped" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-0.000000, 0.000000)">
+                                    <mask id="mask-17" fill="white">
+                                        <use xlink:href="#path-16"></use>
+                                    </mask>
+                                    <g id="Path"></g>
+                                    <path d="M128.668235,104.519444 C154.53,75.4284938 154.53,78.4184691 185.770588,80.027821 C217.011176,81.6377623 233.473529,2.92524753 159.320588,18.5630188 C85.1676471,34.2008491 77.0588235,47.4460506 77.0588235,72.7839691 C77.0588235,98.1221235 102.806471,133.610395 128.668235,104.519444 Z" id="Path" fill="url(#linearGradient-7)" fill-rule="nonzero" mask="url(#mask-17)"></path>
+                                </g>
+                                <g id="Clipped" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-0.000000, 0.000000)">
+                                    <mask id="mask-19" fill="white">
+                                        <use xlink:href="#path-18"></use>
+                                    </mask>
+                                    <g id="Path"></g>
+                                    <path d="M33.5241176,46.922687 C51.5024706,26.6997367 51.5024706,28.7779818 73.2194118,29.8970414 C94.9370588,31.0161009 109.812941,-22.3789512 58.2642353,-11.5081037 C6.71576471,-0.637250278 -2.35294118,7.24721204 -2.35294118,24.8613028 C-2.35294118,42.4753935 15.5458235,67.1459321 33.5241176,46.922687 Z" id="Path" fill="url(#linearGradient-10)" fill-rule="nonzero" mask="url(#mask-19)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

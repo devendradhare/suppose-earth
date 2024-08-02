@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="1320px"
+  height="1024px"
+  viewBox="0 0 1320 1024"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+  <title>Big Planets</title>
+  <desc>Created with Sketch.</desc>
+  <defs>
+    <linearGradient
+      x1="131.336254%"
+      y1="69.7702287%"
+      x2="119.755287%"
+      y2="-81.9810325%"
+      id="linearGradient-1"
+    >
+      <stop stop-color="#6E7FF3" offset="0%"></stop>
+      <stop stop-color="#5753C9" offset="46.3542%"></stop>
+      <stop stop-color="#3D4E81" offset="100%"></stop>
+    </linearGradient>
+    <circle id="path-2" cx="1057.0905" cy="1086.61221" r="319"></circle>
+    <circle id="path-3" cx="336" cy="336" r="319"></circle>
+  </defs>
+  <g
+    id="Page-1"
+    stroke="none"
+    stroke-width="1"
+    fill="none"
+    fill-rule="evenodd"
+    opacity="0.503371466"
+  >
+    <g id="Space-Scene" transform="translate(-120.000000, 0.000000)">
+      <g id="Big-Planets" transform="translate(103.909503, -202.612214)">
+        <g
+          id="Big-Planet-1"
+          transform="translate(1057.090497, 1086.612214) rotate(245.000000) translate(-1057.090497, -1086.612214) "
+        >
+          <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+          <use fill-opacity="0.6" fill="#000000" xlink:href="#path-2"></use>
+        </g>
+        <g
+          id="Big-Planet-2"
+          transform="translate(336.000000, 336.000000) rotate(-87.000000) translate(-336.000000, -336.000000) "
+        >
+          <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+          <use fill-opacity="0.6" fill="#000000" xlink:href="#path-3"></use>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

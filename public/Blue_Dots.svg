@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1082px" height="870px" viewBox="0 0 1082 870" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Blue_Bots</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="131.336254%" y1="69.7702287%" x2="119.755287%" y2="-81.9810325%" id="linearGradient-1">
+            <stop stop-color="#6E7FF3" offset="0%"></stop>
+            <stop stop-color="#5753C9" offset="46.3542%"></stop>
+            <stop stop-color="#3D4E81" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="7" cy="565" r="5"></circle>
+        <filter x="-30.0%" y="-30.0%" width="160.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-4" cx="886" cy="741" r="2"></circle>
+        <filter x="-75.0%" y="-75.0%" width="250.0%" height="250.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-6" cx="750.5" cy="29.5" r="2.5"></circle>
+        <filter x="-60.0%" y="-60.0%" width="220.0%" height="220.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-8" cx="82.5" cy="12.5" r="8.5"></circle>
+        <filter x="-17.6%" y="-17.6%" width="135.3%" height="135.3%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-10" cx="996" cy="47" r="8"></circle>
+        <filter x="-18.8%" y="-18.8%" width="137.5%" height="137.5%" filterUnits="objectBoundingBox" id="filter-11">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-12" cx="349" cy="862" r="8"></circle>
+        <filter x="-18.8%" y="-18.8%" width="137.5%" height="137.5%" filterUnits="objectBoundingBox" id="filter-13">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-14" cx="1077" cy="362" r="3"></circle>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-15">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-16" cx="970.5" cy="368.5" r="4.5"></circle>
+        <filter x="-33.3%" y="-33.3%" width="166.7%" height="166.7%" filterUnits="objectBoundingBox" id="filter-17">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <circle id="path-18" cx="729" cy="304" r="5"></circle>
+        <filter x="-30.0%" y="-30.0%" width="160.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-19">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Space-Scene" transform="translate(-32.000000, -107.000000)">
+            <g id="Blue_Bots" transform="translate(32.000000, 105.000000)">
+                <g id="Oval_10" filter="url(#filter-3)" transform="translate(7.000000, 565.000000) rotate(324.000000) translate(-7.000000, -565.000000) ">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <use fill-opacity="0.3" fill="#FFFFFF" xlink:href="#path-2"></use>
+                </g>
+                <g id="Oval_9" filter="url(#filter-5)" transform="translate(886.000000, 741.000000) rotate(288.000000) translate(-886.000000, -741.000000) ">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-4"></use>
+                    <use fill-opacity="0.3" fill="#FFFFFF" xlink:href="#path-4"></use>
+                </g>
+                <g id="Oval_8" filter="url(#filter-7)" transform="translate(750.500000, 29.500000) rotate(252.000000) translate(-750.500000, -29.500000) ">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-6"></use>
+                    <use fill-opacity="0.3" fill="#FFFFFF" xlink:href="#path-6"></use>
+                </g>
+                <g id="Oval_7" filter="url(#filter-9)" transform="translate(82.500000, 12.500000) rotate(216.000000) translate(-82.500000, -12.500000) ">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-8"></use>
+                    <use fill-opacity="0.3" fill="#FFFFFF" xlink:href="#path-8"></use>
+                </g>
+                <g id="Oval_5" filter="url(#filter-11)" transform="translate(996.000000, 47.000000) rotate(144.000000) translate(-996.000000, -47.000000) ">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-10"></use>
+                    <use fill-opacity="0.3" fill="#FFFFFF" xlink:href="#path-10"></use>
+                </g>
+                <g id="Oval_4" filter="url(#filter-13)" transform="translate(349.000000, 862.000000) rotate(108.000000) translate(-349.000000, -862.000000) ">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-12"></use>
+                    <use fill-opacity="0.3" fill="#FFFFFF" xlink:href="#path-12"></use>
+                </g>
+                <g id="Oval_3" filter="url(#filter-15)" transform="translate(1077.000000, 362.000000) rotate(72.000000) translate(-1077.000000, -362.000000) ">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-14"></use>
+                    <use fill-opacity="0.3" fill="#FFFFFF" xlink:href="#path-14"></use>
+                </g>
+                <g id="Oval_2" filter="url(#filter-17)" transform="translate(970.500000, 368.500000) rotate(36.000000) translate(-970.500000, -368.500000) ">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-16"></use>
+                    <use fill-opacity="0.3" fill="#FFFFFF" xlink:href="#path-16"></use>
+                </g>
+                <g id="Oval_1" filter="url(#filter-19)">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-18"></use>
+                    <use fill-opacity="0.3" fill="#FFFFFF" xlink:href="#path-18"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
