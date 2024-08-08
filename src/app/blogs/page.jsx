@@ -1,5 +1,16 @@
 import Image from "next/image";
 import allBlogs from "/src/db/blogs.js";
+
+// export const metadata = {
+//   title: "blogs | suppose earth",
+//   description:
+//     "astrophotography antriksh universe, space videos, astronomy, astro videos, telescope videos, deep Sky video, Astrophotography tutorial hindi, Hindi Astrophotography, space science, space exploration, telescope Astrophotography, suppose earth, supose erth, sapoj earth, sapos erth, suppose, suppose earth videos, suppose earth astro videos, support erth, suppo erth",
+// };
+
+export async function generateMetadata({ params, searchParams }, parent) {
+  return { title: "blogs | suppose earth" };
+}
+
 const Page = () => {
   return (
     <div className="borders bg-black">

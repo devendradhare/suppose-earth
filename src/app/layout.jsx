@@ -16,7 +16,7 @@ import MySection from "./MySection.jsx";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Create Next App",
+  title: "suppose earth",
   description:
     "astrophotography antriksh universe, space videos, astronomy, astro videos, telescope videos, deep Sky video, Astrophotography tutorial hindi, Hindi Astrophotography, space science, space exploration, telescope Astrophotography, suppose earth, supose erth, sapoj earth, sapos erth, suppose, suppose earth videos, suppose earth astro videos, support erth, suppo erth",
 };

@@ -1,3 +1,6 @@
+export async function generateMetadata({ params, searchParams }, parent) {
+  return { title: "events | suppose earth" };
+}
 const Layout = ({ children, monthEvent }) => {
   // const facts = [
   //   {

@@ -4,6 +4,10 @@ import Link from "next/link";
 import useSignup from "@/hooks/signup";
 import { useAuth } from "@/context/authContext";
 
+// export async function generateMetadata({ params, searchParams }, parent) {
+//   return { title: "signup | suppose earth" };
+// }
+
 const Index = () => {
   const { user, googleSignIn, logout } = useAuth();
   const handleSignIn = async () => {
