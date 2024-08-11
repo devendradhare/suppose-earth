@@ -40,7 +40,7 @@ const SolarSystem = ({position}) => {
         width: "1200px",
         height: "900px",
         zIndex: "-1",
-        border: "2px solid blue",
+        // border: "2px solid blue",
       }}
     >
       <input

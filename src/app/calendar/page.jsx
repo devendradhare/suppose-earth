@@ -732,58 +732,66 @@ const Page = () => {
   };
 
   return (
-    <div className={`${Styles.calendarApp}`}>
-      <div className={`${Styles.calendar}`}>
-        <h1 className={`${Styles.heading}`}>Astronoy Event Calendar</h1>
-        <div className={`${Styles.navigateDate}`}>
-          <h2 className={`${Styles.month}`}>{monthsOfYear[currentMonth]},</h2>
-          <h2 className={`${Styles.year}`}>{currentYear}</h2>
-          <div className={`${Styles.buttons}`}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              className="size-6"
-              onClick={prevMonth}
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M15.75 19.5 8.25 12l7.5-7.5"
-              />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              className="size-6"
-              onClick={nextMonth}
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="m8.25 4.5 7.5 7.5-7.5 7.5"
-              />
-            </svg>
+    <div className={`bg-[rgb(18,18,18)]`}>
+      <h1
+        className={`w-full text-center text-5xl text-white/5 font-bold p-5 relative`}
+      >
+        Astronoy Event Calendar
+        <div className="absolute top-1/2 -translate-y-[45%] left-1/2 -translate-x-1/2 text-2xl text-white/80">
+          Astronoy Event Calendar
+        </div>
+      </h1>
+      <div className={`${Styles.calendarApp} `}>
+        <div className={`${Styles.calendar} p-0`}>
+          <div className={`${Styles.navigateDate} m-0`}>
+            <h2 className={`${Styles.month}`}>{monthsOfYear[currentMonth]},</h2>
+            <h2 className={`${Styles.year}`}>{currentYear}</h2>
+            <div className={`${Styles.buttons}`}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="size-6"
+                onClick={prevMonth}
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5 8.25 12l7.5-7.5"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="size-6"
+                onClick={nextMonth}
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
           </div>
-        </div>
-        <div className={`${Styles.weekdays}`}>
-          {daysOfWeek.map((day) => (
-            <span key={day}>{day}</span>
-          ))}
-        </div>
-        <div className={`${Styles.days}`}>
-          {[...Array(firstDayOfMonth).keys()].map((_, index) => (
-            <span key={`empty-${index}`} />
-          ))}
-          {[...Array(daysInMonth).keys()].map((day) => (
-            <span
-              key={day + 1}
-              className={`
+          <div className={`${Styles.weekdays}`}>
+            {daysOfWeek.map((day) => (
+              <span key={day}>{day}</span>
+            ))}
+          </div>
+          <div className={`${Styles.days}`}>
+            {[...Array(firstDayOfMonth).keys()].map((_, index) => (
+              <span key={`empty-${index}`} />
+            ))}
+            {[...Array(daysInMonth).keys()].map((day) => (
+              <span
+                key={day + 1}
+                className={`
                   ${isEventHere(day) ? Styles.eventDay : ""}
                ${
                  day + 1 === currentDate.getDate() &&
@@ -792,105 +800,164 @@ const Page = () => {
                    ? Styles.currentDay
                    : Styles.otherDays
                } `}
-              // onClick={() => handleDayClick(day + 1)}
-            >
-              {day + 1}
-            </span>
-          ))}
+                // onClick={() => handleDayClick(day + 1)}
+              >
+                {day + 1}
+              </span>
+            ))}
+          </div>
         </div>
-      </div>
-      <div className={`${Styles.events}`}>
-        {showEventPopup && (
-          <div className={`${Styles.eventPopup}`}>
-            <div className={`${Styles.timeInput}`}>
-              <div className={`${Styles.eventPopupTime}`}>Time</div>
-              <input
-                type="number"
-                name="hours"
-                min={0}
-                max={24}
-                className={`${Styles.hours}`}
-                value={eventTime.hours}
-                onChange={handleTimeChange}
-              />
-              <input
-                type="number"
-                name="minutes"
-                min={0}
-                max={60}
-                className={`${Styles.minutes}`}
-                value={eventTime.minutes}
-                onChange={handleTimeChange}
-              />
+        <div className={`${Styles.events}`}>
+          {showEventPopup && (
+            <div className={`${Styles.eventPopup}`}>
+              <div className={`${Styles.timeInput}`}>
+                <div className={`${Styles.eventPopupTime}`}>Time</div>
+                <input
+                  type="number"
+                  name="hours"
+                  min={0}
+                  max={24}
+                  className={`${Styles.hours}`}
+                  value={eventTime.hours}
+                  onChange={handleTimeChange}
+                />
+                <input
+                  type="number"
+                  name="minutes"
+                  min={0}
+                  max={60}
+                  className={`${Styles.minutes}`}
+                  value={eventTime.minutes}
+                  onChange={handleTimeChange}
+                />
+              </div>
+              <textarea
+                placeholder="Enter Event Text (Maximum 60 Characters)"
+                value={eventText}
+                onChange={(e) => {
+                  if (e.target.value.length <= 60) {
+                    setEventText(e.target.value);
+                  }
+                }}
+              ></textarea>
+              <button
+                className={`${Styles.eventPopupBtn}`}
+                onClick={handleEventSubmit}
+              >
+                {editingEvent ? "Update Event" : "Add Event"}
+              </button>
+              <button
+                className={`${Styles.closeEventPopup}`}
+                onClick={() => setShowEventPopup(false)}
+              >
+                {/* <i className="bx bx-x"></i> */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18 18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
             </div>
-            <textarea
-              placeholder="Enter Event Text (Maximum 60 Characters)"
-              value={eventText}
-              onChange={(e) => {
-                if (e.target.value.length <= 60) {
-                  setEventText(e.target.value);
-                }
-              }}
-            ></textarea>
-            <button
-              className={`${Styles.eventPopupBtn}`}
-              onClick={handleEventSubmit}
+          )}
+          <div className="flex justify-between text-white/80">
+            <span
+              onClick={() => prevMonth()}
+              className="btn btn-ghost btn-sm cursor-pointer flex items-center text-white/50"
             >
-              {editingEvent ? "Update Event" : "Add Event"}
-            </button>
-            <button
-              className={`${Styles.closeEventPopup}`}
-              onClick={() => setShowEventPopup(false)}
-            >
-              {/* <i className="bx bx-x"></i> */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="size-6"
+                width="16"
+                height="16"
+                fill="currentColor"
+                viewBox="0 0 16 16"
               >
                 <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18 18 6M6 6l12 12"
+                  fill-rule="evenodd"
+                  d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
                 />
               </svg>
-            </button>
+              Previus month
+            </span>
+            <div>
+              Events in {monthsOfYear[currentMonth]} {currentYear}
+            </div>
+            <span
+              onClick={() => nextMonth()}
+              className="btn btn-ghost btn-sm cursor-pointer flex items-center text-white/50"
+            >
+              Next Month
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="rotate-180"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+                />
+              </svg>
+            </span>
           </div>
-        )}
-        <div className="flex justify-between">
-          <span className="">Previus month</span>
-          <div>events in this month</div>
-          <span>Next Month</span>
-        </div>
-        {events.map((event, index) => (
-          <div
-            className={`${Styles.event_} border [&_*]:border flex`}
-            key={index}
-          >
-            <div className={`${Styles.eventDateWrapper}`}>
-              <div className={`${Styles.eventDate}`}>
-                {`${monthsOfYear[event.month - 1]} ${event.date}, ${
-                  event.year
-                }`}
+          {events.map((event, index) => (
+            <div
+              className={` border-white/15 my-6 flex gap-2 flex-wrap`}
+              key={index}
+            >
+              <div
+                className={`${Styles.eventDateWrapper_dvn_del}  w-full flex gap-2`}
+              >
+                {/* <div className={`${Styles.eventTime_dvn_del} border w-10 h-10`}>{event.time}</div> */}
+                <Image
+                  className="rounded-md w-14 border object-contain"
+                  src={event.image}
+                  width={1000}
+                  height={1000}
+                />
+                <div className={`${Styles.eventText_dvn_del} `}>
+                  <h2 className="text-2xl text-white/80">{event.title}</h2>
+                  <div
+                    className={`${Styles.eventDat_e_dvn_del} h-fit text-white/50 text-xs`}
+                  >
+                    {`${monthsOfYear[event.month - 1]} ${event.date}, ${
+                      event.year
+                    }`}
+                  </div>
+                </div>
               </div>
-              <div className={`${Styles.eventTime}`}>{event.time}</div>
-              <Image
-                className="rounded-md"
-                src={event.image}
-                width={70}
-                height={1}
-              />
+              <div className="relative">
+                <div
+                  className={`${Styles.content} w-full text-white/60 text-sm`}
+                >
+                  {event.content} <div className="inline-block w-1/3"></div>
+                </div>
+                <input
+                  className={`${Styles.readMoreBtn} px-2 absolute bottom-0 right-0 cursor-pointer text-sm`}
+                  type="checkbox"
+                />
+              </div>
             </div>
-            <div className={`${Styles.eventText}`}>
-              <h2>{event.title}</h2>
-              <div className={Styles.content}>{event.content}</div>
-              <input className={Styles.readMoreBtn} type="checkbox" />
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

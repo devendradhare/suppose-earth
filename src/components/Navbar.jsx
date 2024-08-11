@@ -4,12 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 // context
 import { useStore } from "/src/context/Store.jsx";
+import { useAuth } from "@/context/authContext.jsx";
 // images
 import menuicon from "/public/menu2.svg";
 
 const Navbar = ({ isScrolled }) => {
-  const [isOpen, setIsOpen] = useState(true);
   const { theme, setTheme } = useStore();
+  const { user, logout } = useAuth();
+  const [isOpen, setIsOpen] = useState(true);
 
   function handleMenuClick(dontTouch = false) {
     setIsOpen((prev) => dontTouch || !prev);
@@ -19,8 +21,13 @@ const Navbar = ({ isScrolled }) => {
     <nav
       className={`${"myGradient"} myBlur3 duration-500 myFont sticky h-[10svh] top-0 w-screen flex justify-between xl:px-80 sm:px-24 min-[426px]:px-10 px-5 py-5 z-50`}
     >
-      <div className="text-lg uppercase font-semibold dvnTextGradient">
-        Suppose Earth
+      <div className="relative">
+        <div className="text-lg uppercase font-semibold dvnTextGradient ">
+          Suppose Earth
+        </div>
+        <div className="absolute -top-2 -right-7 z-10 text-sm text-white rounded-md">
+          beta
+        </div>
       </div>
       <div>
         <Image
@@ -39,18 +46,54 @@ const Navbar = ({ isScrolled }) => {
           }
           onClick={() => handleMenuClick(true)}
         >
-          <Link href="/" className="btn font-sans  md:block px-4">
+          <Link
+            href="/"
+            className="btn btn-sm btn-ghost hover:bg-transparent font-sans  px-4"
+          >
             Home
           </Link>
-          <Link href="/about" className="btn font-sans  md:block px-4">
-            About
+          <Link
+            href="/calendar"
+            className="btn btn-sm btn-ghost hover:bg-transparent font-sans px-4"
+          >
+            Events
           </Link>
-          <Link href="/blogs" className="btn font-sans  md:block px-4">
+          <Link
+            href="/blogs"
+            className="btn btn-sm btn-ghost hover:bg-transparent font-sans px-4"
+          >
             Blogs
           </Link>
-          <Link href="/login" className="btn font-sans  md:block px-4">
-            Login
-          </Link>
+          {user ? (
+            <div className="dropdown dropdown-hover dropdown-content">
+              <div tabIndex={0} className="avatar cursor-pointer">
+                <div className="w-8 rounded-full">
+                  <Image src={user.photoURL} width={100} height={100} />
+                </div>
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+              >
+                <li>
+                  <p>hello! {user.displayName} </p>
+                </li>
+                <li>
+                  <a onClick={() => logout()}>logout</a>
+                </li>
+                <li>
+                  <a>demo link 3</a>
+                </li>
+              </ul>
+            </div>
+          ) : (
+            <Link
+              href="/login"
+              className="btn btn-sm btn-ghost hover:bg-transparent font-sans px-4"
+            >
+              Login
+            </Link>
+          )}
         </div>
       </div>
     </nav>

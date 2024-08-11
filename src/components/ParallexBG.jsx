@@ -23,7 +23,7 @@ const ParallexBG = () => {
         width={1000}
         height={1000}
       />
-      <Image
+      {/* <Image
         style={{
           transform: "translateZ(-10px)",
           minWidth: "1000px",
@@ -36,7 +36,7 @@ const ParallexBG = () => {
         src={blueDots}
         width={1000}
         height={1000}
-      />
+      /> */}
       {/* <Image
         style={{
           transform: "translateZ(-10px)",
@@ -83,7 +83,7 @@ const ParallexBG = () => {
         width={1000}
         height={1000}
       /> */}
-      <Image
+      {/* <Image
         style={{
           transform: "translateZ(-10px)",
           top: "-100px",
@@ -96,7 +96,7 @@ const ParallexBG = () => {
         src={whiteDots}
         width={1000}
         height={1000}
-      />
+      /> */}
       <Image
         style={{
           transform: "translateZ(-10px) scale(3) rotate(15deg)",

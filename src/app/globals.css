@@ -11,7 +11,7 @@
 }
 
 .myFont {
-  font-family: "Bruno Ace SC", sans-serif;
+  /* font-family: "Bruno Ace SC", sans-serif; */
 }
 
 @layer utilities {
@@ -37,7 +37,7 @@ body {
   width: 100%;
   min-width: 100%;
   min-height: 110%;
-  z-index: -99;
+  /* z-index: ; */
   object-fit: cover;
 }
 

@@ -37,7 +37,7 @@ const Page = () => {
           </span>
         </div>
         {allBlogs.map((blog, index) => (
-          <BlogCard blog={blog} />
+          <BlogCard blog={blog} key={index} />
         ))}
       </div>
     </div>
