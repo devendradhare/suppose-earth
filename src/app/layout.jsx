@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         <StoreProvider>
           <body>
             <PageProgressBar />
-            {/* background image */}
+            {/* background image - the two big circles */}
             <Image
               className="backgroundCircle"
               src={bgCircles}

@@ -15,14 +15,13 @@ const Navbar = ({ isScrolled }) => {
 
   function handleMenuClick(dontTouch = false) {
     setIsOpen((prev) => dontTouch || !prev);
-    console.log("menu clicked isOpen: ", isOpen);
   }
   return (
     <nav
       className={`${"myGradient"} myBlur3 duration-500 myFont sticky h-[10svh] top-0 w-screen flex justify-between xl:px-80 sm:px-24 min-[426px]:px-10 px-5 py-5 z-50`}
     >
-      <div className="relative">
-        <div className="text-lg uppercase font-semibold dvnTextGradient ">
+      <div className="relative flex items-center">
+        <div className="text-lg uppercase font-semibold dvnTextGradient max-sm:text-[20px] ">
           Suppose Earth
         </div>
         <div className="absolute -top-2 -right-7 z-10 text-sm text-white rounded-md">
@@ -42,28 +41,34 @@ const Navbar = ({ isScrolled }) => {
           className={
             isOpen
               ? `md:flex gap-10 hidden`
-              : `w-screen h-[90svh] flex flex-col items-center justify-center text-2xl gap-4 absolute top-[10svh] right-0 bg-black`
+              : `w-screen h-[90svh] flex flex-col gap-10 justify-center items-center text-2xl absolute top-[10svh] right-0 bg-black [&_a]:text-[35px] [&>*]:borde`
           }
           onClick={() => handleMenuClick(true)}
         >
-          <Link
-            href="/"
-            className="btn btn-sm btn-ghost hover:bg-transparent font-sans  px-4"
-          >
-            Home
-          </Link>
-          <Link
-            href="/calendar"
-            className="btn btn-sm btn-ghost hover:bg-transparent font-sans px-4"
-          >
-            Events
-          </Link>
-          <Link
-            href="/blogs"
-            className="btn btn-sm btn-ghost hover:bg-transparent font-sans px-4"
-          >
-            Blogs
-          </Link>
+          <div>
+            <Link
+              href="/"
+              className="btn btn-sm btn-ghost hover:bg-transparent font-sans  px-4"
+            >
+              Home
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="/calendar"
+              className="btn btn-sm btn-ghost hover:bg-transparent font-sans px-4"
+            >
+              Events
+            </Link>
+          </div>
+          <div>
+            <Link
+              href="/blogs"
+              className="btn btn-sm btn-ghost hover:bg-transparent font-sans px-4"
+            >
+              Blogs
+            </Link>
+          </div>
           {user ? (
             <div className="dropdown dropdown-hover dropdown-content">
               <div tabIndex={0} className="avatar cursor-pointer">
@@ -87,12 +92,14 @@ const Navbar = ({ isScrolled }) => {
               </ul>
             </div>
           ) : (
-            <Link
-              href="/login"
-              className="btn btn-sm btn-ghost hover:bg-transparent font-sans px-4"
-            >
-              Login
-            </Link>
+            <div>
+              <Link
+                href="/login"
+                className="btn btn-sm btn-ghost hover:bg-transparent font-sans px-4"
+              >
+                Login
+              </Link>
+            </div>
           )}
         </div>
       </div>

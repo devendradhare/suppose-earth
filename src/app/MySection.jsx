@@ -14,7 +14,11 @@ const MySection = ({ children }) => {
     setIsScrolled(divRef.current.scrollTop);
   }
   return (
-    <section className="mySection" ref={divRef} onScroll={() => handleScroll()}>
+    <section
+      className="w-full h-full absolute top-0 left-0 overflow-x-hidden dvnPerspective"
+      ref={divRef}
+      onScroll={() => handleScroll()}
+    >
       <Navbar isScrolled={isScrolled} />
       <ParallexBG />
       {children}

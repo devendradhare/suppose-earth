@@ -7,15 +7,15 @@ import ytInfo from "/src/db/youtubeProfile.js";
 const ProfileYoutube = () => {
   return (
     <>
-      <div className="max-w-4xl flex gap-12 w-[100%]">
+      <div className="[&_*]:borderdvn max-w-4xl flex w-[100%]">
         <Image
           src={ytInfo.logo}
           alt="suppose earth logo"
           width={200}
           height={200}
-          className="w-1/4 aspect-square"
+          className="w-1/4 aspect-square object-contain self-start"
         />
-        <div className="flex flex-col justify-evenly">
+        <div className="flex-grow flex flex-col justify-evenly">
           <h1 className="text-3xl font-bold">{ytInfo.name}</h1>
           <p className="text-gray">
             {`${ytInfo.uName} • ${ytInfo.subscribersCount} subscribers • ${ytInfo.videosCount} videos`}
@@ -24,7 +24,7 @@ const ProfileYoutube = () => {
             <p>{ytInfo.discription}</p>
             <span className="text-white">...more</span>
           </div>
-          <div className="">
+          <div className="my-4">
             <a
               href={ytInfo.href}
               target="_blank"
@@ -42,7 +42,7 @@ const ProfileYoutube = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-between gap-2 max-w-4xl w-[100%]">
+      <div className="flex flex-wrap justify-center gap-2 max-w-4xl w-[100%]">
         {ytInfo.videoData.map((video, index) => (
           <div
             key={index}

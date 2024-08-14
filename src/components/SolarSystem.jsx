@@ -42,6 +42,7 @@ const SolarSystem = ({position}) => {
         zIndex: "-1",
         // border: "2px solid blue",
       }}
+      className="dvn_allInputs max-sm:max-h-[100vh]"
     >
       <input
         type="radio"
@@ -258,7 +259,7 @@ const SolarSystem = ({position}) => {
         </div>
       </div>
       <div className="content">
-        <h1>The Solar System</h1>
+        <h1 className="font-bold text-4xl text-white/50 mt-10">The Solar System</h1>
         <div className="controls">
           <div className="controls__group">
             <span>Orbit Size:</span>

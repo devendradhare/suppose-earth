@@ -607,7 +607,7 @@ const Page = () => {
   const currentDate = new Date();
 
   const [currentMonth, setCurrentMonth] = useState(currentDate.getMonth());
-  console.log("currentMonth:", currentMonth);
+  // console.log("currentMonth:", currentMonth);
   const [currentYear, setCurrentYear] = useState(currentDate.getFullYear());
   // console.log("currentYear:", currentYear);
   const [selectedDate, setSelectedDate] = useState(currentDate);
@@ -615,7 +615,6 @@ const Page = () => {
   const [showEventPopup, setShowEventPopup] = useState(false);
 
   const [events, setEvents] = useState(eventData);
-  console.log("events:", events);
 
   useEffect(() => {
     setEvents(eventData[currentMonth]);

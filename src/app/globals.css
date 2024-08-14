@@ -10,10 +10,6 @@
   --foreground-rgb: 255, 255, 255;
 }
 
-.myFont {
-  /* font-family: "Bruno Ace SC", sans-serif; */
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -39,22 +35,6 @@ body {
   min-height: 110%;
   /* z-index: ; */
   object-fit: cover;
-}
-
-.mySection {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  overflow-y: unset;
-  perspective: 10px;
-
-  /* border: 1px solid yellow; */
-  /* display: flex;
-  flex-direction: column; */
-
 }
 
 .parallexImgs {
@@ -89,9 +69,9 @@ body {
 }
 
 @media (max-width: 500px) {
-  html {
+  /* html {
     font-size: 55%;
-  }
+  } */
 }
 
 /******* ⬇️⬇️⬇️ custom css classes added by devendra, starts here ⬇️⬇️⬇️ *******/
@@ -149,6 +129,10 @@ body {
 .dvnNagative {
   mix-blend-mode: difference;
   /* filter: invert(100%); */
+}
+
+.dvnPerspective {
+  perspective: 10px;
 }
 
 /******* ⬆️⬆️⬆️ custom css classes added by devendra, ends here ⬆️⬆️⬆️ *******/

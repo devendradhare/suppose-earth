@@ -13,7 +13,7 @@ const Index = () => {
   const handleSignIn = async () => {
     try {
       await googleSignIn();
-      console.log("user : ", user);
+      // console.log("user : ", user);
     } catch (error) {
       console.log("error in login page google signin : ", error);
     }
@@ -34,7 +34,7 @@ const Index = () => {
   async function handleSubmit(e) {
     e.preventDefault();
     const res = await signup(userForm);
-    console.log(res);
+    // console.log(res);
     if (res.status)
       setUser({
         username: "",

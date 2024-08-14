@@ -9,7 +9,7 @@ const Index = () => {
   const handleSignIn = async () => {
     try {
       await googleSignIn();
-      console.log("user : ", user);
+      // console.log("user : ", user);
     } catch (error) {
       console.log("error in login page google signin : ", error);
     }
@@ -28,7 +28,7 @@ const Index = () => {
   async function handleSubmit(e) {
     e.preventDefault();
     const res = await login(userForm);
-    console.log("login res : ", res);
+    // console.log("login res : ", res);
     // if (res.status)
     //   setUser({
     //     email: "",
