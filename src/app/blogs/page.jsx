@@ -13,7 +13,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 
 const Page = () => {
   return (
-    <div className="borders bg-black">
+    <div className=" [&_*]:borderDev bg-black">
       {/* <div className="flex flex-col items-center justify-center">
         <Image
           className="w-screen max-h-[70vh] object-cover"
@@ -27,9 +27,9 @@ const Page = () => {
           </h1>
         </div>
       </div> */}
-      <div className="px-[10%] pb-[15svh] grid gap-4 ">
+      <div className="px-[5%] pb-[15svh] grid gap-4 ">
         <div className="relative flex items-center w-fit h-52">
-          <span className="text-9xl font-bold text-[rgb(30,30,30)]">
+          <span className="text-[6rem] max-sm:text-[3rem] font-bold text-[rgb(30,30,30)]">
             All blogs
           </span>
           <span className="text-xl font-bold text-white absolute">
@@ -43,13 +43,21 @@ const Page = () => {
               <line x1="0" y1="5" x2="80" y2="5" />
             </svg>
           </span>
-          <span className="text-7xl font-bold text-white absolute left-[22%]">
+          <span className="text-[3rem] max-sm:text-[1.5rem] font-bold text-white absolute left-[22%]">
             All blogs
           </span>
         </div>
-        {allBlogs.map((blog, index) => (
-          <BlogCard blog={blog} key={index} />
-        ))}
+        <p className="text-white/40">
+          Explore all the information and knowledge we collect for you.
+        </p>
+        <div className=" grid gap-4">
+          {allBlogs.map((blog, index) => (
+            <div className="">
+              <p className="uppercase text-white/20 font-bold">vlog {index+1}</p>
+              <BlogCard blog={blog} key={index} />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
@@ -57,21 +65,27 @@ const Page = () => {
 
 const BlogCard = ({ blog }) => {
   return (
-    <div className="flex gap-4">
-      <div className="overflow-hidden min-w-[350px] max-h-[230px]">
-        <Image className=" " width={500} height={500} src={blog.image} />
+    <div className=" grid grid-cols-2  gap-1  overflow-hidden">
+      <div className="max-h-[200px] object-contain grid content-center">
+        <Image
+          className="object-contain "
+          width={500}
+          height={500}
+          src={blog.image}
+        />
       </div>
-      <div className="flex flex-col justify-evenly">
-        <h1 className="text-4xl text-white">{blog.title}</h1>
-        <span className="text-gray">
+      <div className="grid content-center ">
+        <h1 className="text-4xl max-md:text-lg text-white/80 drop-shadow-black">{blog.title}</h1>
+        <span className="text-white/50 drop-shadow-blue">
           {blog.uploadDate} / {blog.comments.length + " comments"}
         </span>
-        <p className="font-light text-gray">
+        <p className="font-light text-gray drop-shadow-black max-md:hidden">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
           repellat nobis quasi expedita earum, harum at nisi laboriosam beatae
           voluptatum voluptatem enim sit temporibus consequuntur, vitae minima?
           Laboriosam illum doloremque numquam qui sed dolorum!
         </p>
+        <button className="btn  ">Read more</button>
       </div>
     </div>
   );

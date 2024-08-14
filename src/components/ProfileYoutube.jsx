@@ -42,11 +42,12 @@ const ProfileYoutube = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center gap-2 max-w-4xl w-[100%]">
+      {/* <div className="border flex flex-wrap justify-center gap-2 max-w-4xl w-[100%]"> */}
+      <div className="grid gap-4 grid-cols-3 max-sm:grid-cols-1 w-full">
         {ytInfo.videoData.map((video, index) => (
           <div
             key={index}
-            className="relative rounded-xl overflow-hidden hover:scale-110 duration-200 w-[32%] min-w-[250px]"
+            className="relative rounded-xl overflow-hidden hover:scale-110 duration-200  border border-white/20 flex justify-center "
           >
             <Image src={video.src} width={350} height={200} alt={video.alt} />
             <h3 className="absolute hover:h-full top-0 left-0 w-full h-[250%] hover:bg-[rgba(0,0,0,0.8)] flex justify-center items-center">

@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <main className=" h-[60svh] flex justify-center items-center flex-col flex-wrap dvnShadow relative top-28">
-        <div className=" w-[61%] max-w-[440px] ">
-          <h1 className="text-primary dark:text-black text-7xl font-bold mb-4">
+        <div className="[&_*]:borderDEV w-[61%] max-w-[440px] ">
+          <h1 className="text-primary dark:text-black text-6xl font-bold mb-4">
             Explore The
-            <span className="tracking-[16px] max-sm:tracking-normal">
+            <span className="tracking-[16px] max-sm:tracking-normal block">
               Universe
             </span>
           </h1>
