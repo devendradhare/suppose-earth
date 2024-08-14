@@ -68,7 +68,7 @@ const BlogCard = ({ blog }) => {
     <div className=" grid grid-cols-2  gap-1  overflow-hidden">
       <div className="max-h-[200px] object-contain grid content-center">
         <Image
-          className="object-contain "
+          className="object-contain w-full"
           width={500}
           height={500}
           src={blog.image}
